@@ -2572,3 +2572,16 @@ In the above code, we are finding the middle element each time and checking if t
 Conclusion
 1. Conclusion
 Java is one of the simple high-level languages that provides powerful tools and impressive standards required for application development. It was also one of the first languages to provide amazing threading support for tackling concurrency-based problems. The easy-to-use syntax and the built-in features of Java combined with the stability it provides to applications are the main reasons for this language has ever-growing usage in the software community.
+
+125.
+What does it mean that a method or class is abstract?
+An abstract class cannot be instantiated. Abstract methods may only be included in abstract classes. However, an abstract class is not required to have any abstract methods, though most of them do. Each subclass of an abstract class must override the abstract methods of its superclasses or it also should be declared abstract.
+126.
+What is a transient variable?
+Transient variable is a variable that may not be serialized.
+127.
+How does Java handle integer overflows and underflows?
+It uses those low order bytes of the result that can fit into the size of the type allowed by the operation.
+128.
+What is the difference between the >> and >>> operators?
+The >> operator carries the sign bit when shifting right. The >>> zero-fills bits that have been shifted out.
